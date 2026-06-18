@@ -1,6 +1,6 @@
 #import "template.typ": conf, pitfall
 
-#show: doc => conf("Topic Name", summer_year: "2026", doc)
+#show: doc => conf("Topic Name", year: "2026", doc)
 
 == A. The Conceptual Core
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Notes on invariants, space/time complexity...
@@ -12,7 +12,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
 
 #pitfall([
     Lorem ipsum dolor sit amet, common edge cases, off-by-one errors, overflow warnings.
-])[
+])
 
 == C. Problem Recognition Rules
 - *Clue 1:* Lorem ipsum dolor sit amet...
